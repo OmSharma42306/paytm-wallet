@@ -53,5 +53,4 @@ model Balance{
   amount Int
   locked Int
   user User @relation(fields: [userId],references: [id])
-
 }
